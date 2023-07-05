@@ -44,21 +44,14 @@ int main(int argc, char *argv[])
   else
     switch(argv[1][1])  //gets the time of the argument (the 'n' in "-n")
     {
-      case 'p':
-        {
-          if(argc < 3) Error(" ", 0); //if the user requested a '-n' argument but didn't provide a name, an error occurs
-          pathc += directories[0] + SEP + argv[2] + ".json"; //updating the path to the constellations folder and adding the name of the requested constallation to the pathc
-        }
-        break;
-
-        // Refactored -n
+      // Refactored -n
       case 'n':
         {
           if(argc < 3) Error(" ", 0); //if the user requested a '-p' argument but didn't provide a name, an error occurs
           if (static_cast<string>(argv[2]) == "norse" && !(argc < 4)){
-          pathc += directories[1] + SEP + argv[3] + ".json"; //updating the path to the constellations folder and adding the name of the requested constallation to the pathc
+            pathc += directories[1] + SEP + argv[3] + ".json"; //updating the path to the constellations folder and adding the name of the requested constallation to the pathc
           } else {
-          pathc += directories[0] + SEP + argv[2] + ".json"; // if user didn't specify what constellation tradition, use default constellations
+            pathc += directories[0] + SEP + argv[2] + ".json"; // if user didn't specify what constellation tradition, use default constellations
           }
         }
         break;
@@ -66,10 +59,6 @@ int main(int argc, char *argv[])
       case 'h':
         Help();
         return EXIT_SUCCESS;
-      case 't':
-        pathc += RandomConstRefactor();
-        //return EXIT_SUCCESS;
-        break;
       case 'r':
         pathc += RandomConstRefactor(); //with the '-r' option, it selects a random constellation
         break;
@@ -183,47 +172,62 @@ static inline void PrintConst(string &pathc)
 static string RandomConstRefactor()
 {
 
-// I'm not a C++ programmer at all, so this is probably super messy, but it works
-// refer to the lisp version to get an idea of what to do for the logic
-// then reimplement it in C++
 
   int size_of_directories = sizeof(directories)/sizeof(string);
-  int directoryLength = 0;
-
   std::random_device rd;
   std::mt19937 e(rd());
   std::uniform_int_distribution<int> randdir(0, (size_of_directories - 1));
+  std::uniform_real_distribution<double> udev(0.0, (size_of_directories - 1.0));
   auto random_dir = randdir(e);
 
   size_t pos;
+  size_t n = 1;
   string s;
-
-  std::list<string> file_list; // list of files to be populated in loop, depending on what the rng decided the directory to be
 
   for (const auto & entry : filesystem::directory_iterator(path + directories[random_dir] + SEP))
   {
-    pos = entry.path().u8string().find(directories[random_dir] + SEP);
-    s = entry.path().u8string().substr(pos);
-    file_list.push_back(s);
-    directoryLength++;
+      if (udev(e) < 1.0 / n) {
+        pos = entry.path().u8string().find(directories[random_dir] + SEP);
+        s = entry.path().u8string().substr(pos);
+      }
+      n++;
   }
 
-  std::uniform_int_distribution<int> randfile(0, (directoryLength - 1));
-  auto random_file = randfile(e);
-  std::list<string>::iterator itr = file_list.begin();
 
-  for (int i = 0; i < random_file; i++)
-  {
-    if (directoryLength == 1 || directoryLength == 0)
-    {
-      break; // don't iterate, if the directory only has one or 0 items
-    } else {
-      ++itr;
-    }
-  }
-
-  return *itr;
+  return s;
 }
+
+
+
+//static string RandomConstRefactor()
+//{
+
+//// I'm not a C++ programmer at all, so this is probably super messy, but it works
+//// refer to the lisp version to get an idea of what to do for the logic
+//// then reimplement it in C++
+
+  //// this is faster than RandomConst(), for some reason.
+
+  //int size_of_directories = sizeof(directories)/sizeof(string);
+  //std::random_device rd;
+  //std::mt19937 e(rd());
+  //std::uniform_int_distribution<int> randdir(0, (size_of_directories - 1));
+  //std::uniform_int_distribution<int> udev(0, (size_of_directories * 4));
+  //auto random_dir = randdir(e);
+
+  //size_t pos;
+  //string s;
+
+  //for (const auto & entry : filesystem::directory_iterator(path + directories[random_dir] + SEP))
+  //{
+        //pos = entry.path().u8string().find(directories[random_dir] + SEP);
+        //s = entry.path().u8string().substr(pos);
+    //if(s != directories[random_dir] + "/.DS_Store" && udev(e) == udev(e))
+    //break;
+  //}
+
+  //return s;
+//}
 
 
 static string RandomConst()
@@ -256,7 +260,7 @@ static void PrintList()
   //cout << REQUESTED_COLOR + "✦  available constellations\033[0;0m:" << endl;
   //prints every constellation name from the files name in the directories array
   for (long unsigned int i = 0; i < sizeof(directories)/sizeof(string); i++){
-  cout << "\n" + REQUESTED_COLOR + "✦ available " + directories[i] + "\033[0;0m:" << endl;
+    cout << "\n" + REQUESTED_COLOR + "✦ available " + directories[i] + "\033[0;0m:" << endl;
     for (const auto & entry : filesystem::directory_iterator(path + directories[i] + SEP))
     {
       s = entry.path().u8string().substr(entry.path().u8string().find("constellations" + SEP)+15); //from "/usr/local/opt/starfetch/res/constellations/xxxxxx" to "xxxxxx"
