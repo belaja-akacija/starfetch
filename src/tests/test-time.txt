@@ -1,0 +1,450 @@
+1. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.25785 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.13429 seconds
+----------
+
+2. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.2469 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.14033 seconds
+----------
+
+3. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27014 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.1411 seconds
+----------
+
+4. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.26456 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.15197 seconds
+----------
+
+5. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27813 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.21457 seconds
+----------
+
+6. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.32197 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.18676 seconds
+----------
+
+7. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.26715 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.13613 seconds
+----------
+
+8. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.31944 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.1849 seconds
+----------
+
+9. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.42894 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.16741 seconds
+----------
+
+10. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.23878 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.14323 seconds
+----------
+
+11. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.3011 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.14557 seconds
+----------
+
+12. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27149 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.13549 seconds
+----------
+
+13. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27833 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.17182 seconds
+----------
+
+14. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.29673 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.15223 seconds
+----------
+
+15. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.34399 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.16632 seconds
+----------
+
+16. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.31643 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.20687 seconds
+----------
+
+17. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.22981 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.14645 seconds
+----------
+
+18. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.28424 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.15282 seconds
+----------
+
+19. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.30071 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.16345 seconds
+----------
+
+20. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.31106 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.19074 seconds
+----------
+
+21. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.28446 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.16108 seconds
+----------
+
+22. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.2634 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.14592 seconds
+----------
+
+23. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.25753 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.1351 seconds
+----------
+
+24. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.29278 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.1613 seconds
+----------
+
+25. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.3433 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.16243 seconds
+----------
+
+26. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27711 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.12254 seconds
+----------
+
+27. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.26901 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.1698 seconds
+----------
+
+28. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.29383 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.12403 seconds
+----------
+
+29. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.26458 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.16476 seconds
+----------
+
+30. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.31214 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.20101 seconds
+----------
+
+31. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.32636 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.15692 seconds
+----------
+
+32. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.23167 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.09216 seconds
+----------
+
+33. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.31399 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.12991 seconds
+----------
+
+34. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.31421 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.16523 seconds
+----------
+
+35. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.32928 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.20947 seconds
+----------
+
+36. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.28948 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.13637 seconds
+----------
+
+37. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.31238 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.2113 seconds
+----------
+
+38. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.24525 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.11207 seconds
+----------
+
+39. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.28781 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.16072 seconds
+----------
+
+40. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.24023 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.11152 seconds
+----------
+
+41. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.25339 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.13362 seconds
+----------
+
+42. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27512 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.1839 seconds
+----------
+
+43. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27071 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.14775 seconds
+----------
+
+44. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.26808 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.12373 seconds
+----------
+
+45. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.3074 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.12192 seconds
+----------
+
+46. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.2794 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.11875 seconds
+----------
+
+47. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27504 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.1709 seconds
+----------
+
+48. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.25975 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.15131 seconds
+----------
+
+49. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27148 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.14723 seconds
+----------
+
+50. Randomizer Test
+
+Time Elapsed For RandomConst, 100000 cycles: 
+2.27349 seconds
+
+Time Elapsed For RandomConstRefactor, 100000 cycles: 
+2.119 seconds
+----------
+

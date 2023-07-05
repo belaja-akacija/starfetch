@@ -6,8 +6,11 @@ BIN_DIR = /usr/local/bin
 
 all: starfetch
 
-starfetch: 
+starfetch:
 	${CXX} ${CFLAGS} ${SRC} -o starfetch
+
+test:
+	${CXX} ${CFLAGS} src/tests/test-suite.cpp -o starfetch-test
 
 install:
 	rm -rf ${INSTALL_DIR}/starfetch
@@ -23,6 +26,6 @@ uninstall:
 	unlink ${BIN_DIR}/starfetch
 
 clean:
-	rm -rf starfetch
+	rm -rf starfetch starfetch-test
 
 .PHONY: all starfetch install uninstall clean
